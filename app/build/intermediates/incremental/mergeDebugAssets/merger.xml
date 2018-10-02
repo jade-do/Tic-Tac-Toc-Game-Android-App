@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/assets"/><source path="/Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/debug/assets"/></dataSet></merger>

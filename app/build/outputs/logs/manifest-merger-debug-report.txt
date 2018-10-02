@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/db3dbec277582297a7e516cf4ecb80c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4eb8d35031eccbc27487d63dbe2c1395/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/74589f2a8eb829877be8fa6a7c0b9b5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6acd4fa0a79d6952d6b05430b5c34c1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31ed12e32e4380134b46e0d20be671ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7c46fcd32f9b011363291cf6b9a1d8c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5cc47ba484c0ebfae8a04e1bbd87c889/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d6eb7d8669afc0cafcb4a4cbfa9b4bfc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6ffde31b05375256decb4a740056fd29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ed6b76dc57adb3f4dcbba93d9d93a0d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b246a099b92a54c424645bacf76f0552/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/686a72525d6747abc3db1a6f578d6f65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f1cfe1dbcaff2d5731ec01c49e2fc9c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a0cdfaba1faeeedffbfee7cf0c9ae50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0ff82845e54ae593ee7bb832d2b21f7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/47b7bbf456835d97393151de4352df0a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0d23637bdb73e663bd5ccd1e2091d1dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/53f1bdb27e9be27d9e70c62415f7e64f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1b9b4846d3578987dc543b286367ec4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf60114c6bf6ba51a93722268620d4f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b3efa73f0bc655671e1856dce94e01c3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f146270242447c6d71dcc7588f8ce1a8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f043a30638d7bbc8350268bc6f395659/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ae9b14684e5ca80c1ddad86bd70a6ee4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bfe2fac6158b13878b79f96338ff60b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/036d2b347e2cc4d9fdd0bcca869a29b5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:4:22-77
+application
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:6:5-55:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4eb8d35031eccbc27487d63dbe2c1395/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4eb8d35031eccbc27487d63dbe2c1395/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/47b7bbf456835d97393151de4352df0a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/47b7bbf456835d97393151de4352df0a/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:12:9-40
+activity#edu.miami.cs.jadedo.tictactocgame.MainActivity
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:34:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:38:27-74
+activity#edu.miami.cs.jadedo.tictactocgame.GameOn
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:41:9-47:20
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:41:19-41
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:42:13-46:29
+action#android.intent.action.VIEW
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:45:27-73
+activity#edu.miami.cs.jadedo.tictactocgame.Prompt
+ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:48:9-54:20
+	android:name
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml:48:19-41
+uses-sdk
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/db3dbec277582297a7e516cf4ecb80c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/db3dbec277582297a7e516cf4ecb80c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4eb8d35031eccbc27487d63dbe2c1395/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4eb8d35031eccbc27487d63dbe2c1395/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/74589f2a8eb829877be8fa6a7c0b9b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/74589f2a8eb829877be8fa6a7c0b9b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6acd4fa0a79d6952d6b05430b5c34c1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6acd4fa0a79d6952d6b05430b5c34c1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31ed12e32e4380134b46e0d20be671ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31ed12e32e4380134b46e0d20be671ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7c46fcd32f9b011363291cf6b9a1d8c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7c46fcd32f9b011363291cf6b9a1d8c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5cc47ba484c0ebfae8a04e1bbd87c889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5cc47ba484c0ebfae8a04e1bbd87c889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d6eb7d8669afc0cafcb4a4cbfa9b4bfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d6eb7d8669afc0cafcb4a4cbfa9b4bfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6ffde31b05375256decb4a740056fd29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6ffde31b05375256decb4a740056fd29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ed6b76dc57adb3f4dcbba93d9d93a0d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ed6b76dc57adb3f4dcbba93d9d93a0d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b246a099b92a54c424645bacf76f0552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b246a099b92a54c424645bacf76f0552/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/686a72525d6747abc3db1a6f578d6f65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/686a72525d6747abc3db1a6f578d6f65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f1cfe1dbcaff2d5731ec01c49e2fc9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f1cfe1dbcaff2d5731ec01c49e2fc9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a0cdfaba1faeeedffbfee7cf0c9ae50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a0cdfaba1faeeedffbfee7cf0c9ae50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0ff82845e54ae593ee7bb832d2b21f7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0ff82845e54ae593ee7bb832d2b21f7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/97394ea255b66720943bd2f4a18e4342/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/47b7bbf456835d97393151de4352df0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/47b7bbf456835d97393151de4352df0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0d23637bdb73e663bd5ccd1e2091d1dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0d23637bdb73e663bd5ccd1e2091d1dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/53f1bdb27e9be27d9e70c62415f7e64f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/53f1bdb27e9be27d9e70c62415f7e64f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1b9b4846d3578987dc543b286367ec4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1b9b4846d3578987dc543b286367ec4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf60114c6bf6ba51a93722268620d4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf60114c6bf6ba51a93722268620d4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b3efa73f0bc655671e1856dce94e01c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b3efa73f0bc655671e1856dce94e01c3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f146270242447c6d71dcc7588f8ce1a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f146270242447c6d71dcc7588f8ce1a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f043a30638d7bbc8350268bc6f395659/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f043a30638d7bbc8350268bc6f395659/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ae9b14684e5ca80c1ddad86bd70a6ee4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ae9b14684e5ca80c1ddad86bd70a6ee4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bfe2fac6158b13878b79f96338ff60b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3bfe2fac6158b13878b79f96338ff60b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/036d2b347e2cc4d9fdd0bcca869a29b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadedo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/036d2b347e2cc4d9fdd0bcca869a29b5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadedo/Desktop/UM_Fall_2018/CSC330/AndroidStudioProjects/Projects/TicTacTocGame/app/src/main/AndroidManifest.xml
