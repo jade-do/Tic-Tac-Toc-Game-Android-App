@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <item android:id="@+id/reset"
+        android:title="Reset">
+    </item>
+    <item android:id="@+id/one_sec"
+        android:title="1 second">
+    </item>
+    <item android:id="@+id/two_sec"
+        android:title="2 seconds">
+    </item>
+    <item android:id="@+id/five_sec"
+        android:title="5 seconds">
+    </item>
+    <item android:id="@+id/ten_sec"
+        android:title="10 seconds">
+    </item>
+</menu>

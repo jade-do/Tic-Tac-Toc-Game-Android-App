@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/player_1_section"
+        style="@style/PlayerSection">
+        <LinearLayout android:id="@+id/player_1_row"
+            style="@style/PlayerRow">
+            <TextView android:id="@+id/player_1_txt"
+                style="@style/PlayerTextViewFormat"
+                android:text="@string/player_1_str">
+            </TextView>
+            <Button android:id="@+id/btn_1"
+                style="@style/PlayerButton"
+                android:background="@color/player_1_color">
+            </Button>
+        </LinearLayout>
+        <RatingBar android:id="@+id/rating_bar_1"
+            style="@style/RatingBarStyling">
+        </RatingBar>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/player_2_section"
+        style="@style/PlayerSection">
+        <LinearLayout android:id="@+id/player_2_row"
+            style="@style/PlayerRow">
+            <TextView android:id="@+id/player_2_txt"
+                style="@style/PlayerTextViewFormat"
+                android:text="@string/player_2_str">
+            </TextView>
+            <Button android:id="@+id/btn_2"
+                style="@style/PlayerButton"
+                android:background="@color/player_2_color">
+            </Button>
+        </LinearLayout>
+        <RatingBar android:id="@+id/rating_bar_2"
+            style="@style/RatingBarStyling">
+        </RatingBar>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/btn_start_row"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:gravity="center">
+        <Button android:id="@+id/btn_start"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/btn_start_width"
+            android:layout_height="@dimen/btn_start_height"
+            android:onClick="myClickHandler">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">15dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="text_size">30dp</dimen>
+    <dimen name="player_btn_size">60dp</dimen>
+    <dimen name="btn_start_width">150dp</dimen>
+    <dimen name="btn_start_height">100dp</dimen>
+
+    <dimen name="progress_bar_height">20dp</dimen>
+    <dimen name="progress_bar_width">300dp</dimen>
+    <dimen name="gap">10dp</dimen>
+
+    <integer name="max_scores">5</integer>
+
+<!--    <integer name="bar_max_1_sec">1000</integer>
+    <integer name="bar_max_2_sec">2000</integer>
+    <integer name="bar_max_5_sec">5000</integer>
+    <integer name="bar_max_10_sec">10000</integer>
+    <integer name="bar_gap_time">100</integer>-->
+
+    <integer name="bar_max">1000</integer>
+    <integer name="bar_gap_one_sec">10</integer>
+    <integer name="bar_gap_two_sec">20</integer>
+    <integer name="bar_gap_five_sec">50</integer>
+    <integer name="bar_gap_ten_sec">100</integer>
+
+</resources>

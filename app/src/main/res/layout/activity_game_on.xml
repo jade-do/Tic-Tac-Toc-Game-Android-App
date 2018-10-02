@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/player_row"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+        <Button android:id="@+id/btn_1_game_on"
+            style="@style/PlayerButton"
+            android:background="@color/player_1_color">
+
+        </Button>
+        <TextView android:id="@+id/player"
+            style="@style/PlayerTextViewFormat"
+            android:text="@string/player_str"
+            android:gravity="center">
+        </TextView>
+        <Button android:id="@+id/btn_2_game_on"
+            style="@style/PlayerButton"
+            android:background="@color/player_2_color">
+        </Button>
+
+    </LinearLayout>
+    <ProgressBar android:id="@+id/time_left"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/progress_bar_width"
+        android:layout_height="@dimen/progress_bar_height"
+        android:layout_marginTop="@dimen/gap"
+        android:layout_gravity="center"
+        android:max="@integer/bar_max">
+    </ProgressBar>
+    <LinearLayout android:id="@+id/btn_group"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <LinearLayout android:id="@+id/btn_row_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <Button android:id="@+id/my_btn_1"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_2"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_3"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_row_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <Button android:id="@+id/my_btn_4"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_5"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_6"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_row_3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <Button android:id="@+id/my_btn_7"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_8"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+            <Button android:id="@+id/my_btn_9"
+                android:layout_width="@dimen/player_btn_size"
+                android:layout_height="@dimen/player_btn_size"
+                android:onClick="myClickHandler">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
