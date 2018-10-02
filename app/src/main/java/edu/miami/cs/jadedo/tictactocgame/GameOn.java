@@ -228,14 +228,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_1, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
                     }
                     whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_1, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -248,14 +248,16 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_2, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_2, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
-                    }                    whoseTurnItIs = PLAYER_1;
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
+                    }
+                    whoseTurnItIs = PLAYER_1;
                 }
                 theButton.setClickable(false);
                 break;
@@ -266,13 +268,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_3, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_3, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -285,13 +288,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_4, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_4, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -304,13 +308,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_5, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_5, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -323,13 +328,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_6, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_6, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -342,13 +348,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_7, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_7, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -361,13 +368,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_8, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_8, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }
@@ -380,13 +388,14 @@ public class GameOn extends AppCompatActivity {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_9, uriOneThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_1_color);
-                    }                    whoseTurnItIs = PLAYER_2;
+                        theButton.setBackgroundResource(R.drawable.moon_cream_cat);
+                    }
+                    whoseTurnItIs = PLAYER_2;
                 } else {
                     if (uriOneStringThere != null && uriTwoStringThere != null)    {
                         setButtonImage(R.id.my_btn_9, uriTwoThere);
                     } else {
-                        theButton.setBackgroundResource(R.color.player_2_color);
+                        theButton.setBackgroundResource(R.drawable.night_star_cat);
                     }
                     whoseTurnItIs = PLAYER_1;
                 }

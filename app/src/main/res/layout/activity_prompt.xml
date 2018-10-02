@@ -21,15 +21,9 @@
             android:layout_weight="70"
             android:hint="Enter name"></EditText>
 
-<!--        <ImageView
-            android:id="@+id/player_1_image"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:src="@drawable/night_holiday_cat"
-            android:onClick="myClickHandler"></ImageView>-->
         <Button android:id="@+id/player_1_image"
             style="@style/PlayerButton"
-            android:background="@color/player_1_color"
+            android:background="@drawable/moon_cream_cat"
             android:onClick="myClickHandler">
         </Button>
     </LinearLayout>
@@ -46,16 +40,10 @@
             android:layout_height="match_parent"
             android:layout_weight="70"
             android:hint="Enter name"></EditText>
-<!--
-        <ImageView
-            android:id="@+id/player_2_image"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:src="@drawable/moon_cream_cat"
-            android:onClick="myClickHandler"></ImageView>-->
+
         <Button android:id="@+id/player_2_image"
             style="@style/PlayerButton"
-            android:background="@color/player_2_color"
+            android:background="@drawable/night_star_cat"
             android:onClick="myClickHandler">
         </Button>
     </LinearLayout>

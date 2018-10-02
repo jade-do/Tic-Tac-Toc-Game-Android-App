@@ -12,7 +12,7 @@
             </TextView>
             <Button android:id="@+id/btn_1"
                 style="@style/PlayerButton"
-                android:background="@color/player_1_color">
+                android:background="@drawable/moon_cream_cat">
             </Button>
         </LinearLayout>
         <RatingBar android:id="@+id/rating_bar_1"
@@ -29,7 +29,7 @@
             </TextView>
             <Button android:id="@+id/btn_2"
                 style="@style/PlayerButton"
-                android:background="@color/player_2_color">
+                android:background="@drawable/night_star_cat">
             </Button>
         </LinearLayout>
         <RatingBar android:id="@+id/rating_bar_2"
