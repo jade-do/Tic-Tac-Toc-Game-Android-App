@@ -52,8 +52,10 @@ public class GameOn extends AppCompatActivity {
 
         initializeBoard(board);
 
+        // Getting the new dividing line
         dividingLine = this.getIntent().getDoubleExtra("edu.miami.cs.jadedo.tictactocgame.dividing_line", 0.5);
 
+        // Initializing buttons , player name
         currPlayer = initializePlayer();
         BTN_1 = findViewById(R.id.btn_1_game_on);
         BTN_2 = findViewById(R.id.btn_2_game_on);
@@ -64,9 +66,8 @@ public class GameOn extends AppCompatActivity {
 
         setButton();
 
+        // Setting up the progress bar
         myProgressBar = findViewById(R.id.time_left);
-        //myBarMaxTimeHere = this.getIntent().getIntExtra("edu.miami.cs.jadedo.tictactocgame.my_bar_max_time",
-          //      getResources().getInteger(R.integer.bar_max_10_sec));
         myProgressBar.setProgress(myProgressBar.getMax());
         myBarGapTimeHere = this.getIntent().getIntExtra("edu.miami.cs.jadedo.tictactocgame.my_bar_gap_time",
                       getResources().getInteger(R.integer.bar_gap_five_sec));
@@ -74,6 +75,7 @@ public class GameOn extends AppCompatActivity {
         uriOneStringThere = this.getIntent().getStringExtra("edu.miami.cs.jadedo.tictactocgame.uri_one_string");
         uriTwoStringThere = this.getIntent().getStringExtra("edu.miami.cs.jadedo.tictactocgame.uri_two_string");
 
+        // Setting the images
         if (uriOneStringThere != null && uriTwoStringThere != null)    {
             uriOneThere = Uri.parse(uriOneStringThere);
             uriTwoThere = Uri.parse(uriTwoStringThere);
@@ -86,6 +88,7 @@ public class GameOn extends AppCompatActivity {
 
     }
 
+    // Initialize the array to keep track of winner
     private void initializeBoard(int[][] theBoard){
         for (int i = 0; i < 3; i++){
             for (int j = 0; j < 3; j++){
@@ -136,7 +139,7 @@ public class GameOn extends AppCompatActivity {
 
         int checkTie = 0;
 
-        // Check horizontal
+        // Check vertical
         for (int y = 0; y < 3; y++){
             for (int i = 0; i < 3; i++) {
                 if(board[i][y] != currPlayer){
@@ -148,7 +151,7 @@ public class GameOn extends AppCompatActivity {
             }
         }
 
-        // Check vertical
+        // Check horizontal
         for (int x = 0; x < 3; x++){
             for (int i = 0; i < 3; i++){
                 if (board[x][i] != currPlayer){
@@ -180,6 +183,7 @@ public class GameOn extends AppCompatActivity {
             }
         }
 
+        // Check for Tie
         for (int i = 0; i < 3; i++){
             for (int j = 0; j < 3; j++){
                 if (board[i][j] != BLANK){
@@ -197,6 +201,8 @@ public class GameOn extends AppCompatActivity {
 
     private void returnWinner (){
         Intent returnIntent;
+
+        // Return winner as well as new dividingLine value
 
         returnIntent = new Intent();
         returnIntent.putExtra("edu.miami.cs.jadedo.tictactocgame.who_won", currPlayer);
@@ -219,6 +225,8 @@ public class GameOn extends AppCompatActivity {
     public void myClickHandler(View view){
 
         Button theButton;
+
+        // Marking the players' move on the board
 
         switch(view.getId()){
             case R.id.my_btn_1:
@@ -406,8 +414,9 @@ public class GameOn extends AppCompatActivity {
         }
     }
 
+    private Handler myHandler = new Handler();
+
     private final Runnable myProgresser = new Runnable(){
-        private Handler myHandler = new Handler();
 
         public void run(){
 
@@ -435,5 +444,13 @@ public class GameOn extends AppCompatActivity {
             }
         }
     };
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        myHandler.removeCallbacks(myProgresser);
+        finish();
+    }
+
 }
 

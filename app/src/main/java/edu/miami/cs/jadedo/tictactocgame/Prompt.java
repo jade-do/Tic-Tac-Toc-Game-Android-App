@@ -47,8 +47,8 @@ public class Prompt extends AppCompatActivity {
 
     public void myClickHandler(View view){
         Intent galleryIntent;
-
         switch (view.getId()){
+            // Getting image informatino from photo library
             case R.id.player_1_image:
                 galleryIntent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI);
                 startActivityForResult(galleryIntent, ACTIVITY_SELECT_PICTURE_1);
@@ -58,8 +58,9 @@ public class Prompt extends AppCompatActivity {
                 startActivityForResult(galleryIntent, ACTIVITY_SELECT_PICTURE_2);
                 break;
 
+                // Starting the game
             case R.id.btn_start_general:
-
+                // Getting the players' name
                 EditText editNameOne = findViewById(R.id.enter_name_player_1);
                 EditText editNameTwo =  findViewById(R.id.enter_name_player_2);
 
@@ -76,6 +77,8 @@ public class Prompt extends AppCompatActivity {
                 if (nameTwo.equals("")){
                     nameTwo = getResources().getString(R.string.player_2_str);
                 }
+
+                // Passing in information
                 returnIntent.putExtra("edu.miami.cs.jadedo.tictactocgame.name_one", nameOne);
                 returnIntent.putExtra("edu.miami.cs.jadedo.tictactocgame.name_two", nameTwo);
 
@@ -100,6 +103,7 @@ public class Prompt extends AppCompatActivity {
 
         switch(requestCode){
 
+            // Getting the image information for player 1
             case ACTIVITY_SELECT_PICTURE_1:
                 if (resultCode == Activity.RESULT_OK) {
                     selectedUriOne = data.getData();
@@ -124,6 +128,7 @@ public class Prompt extends AppCompatActivity {
                 }
                 break;
 
+                // Getting the image information for player 2
             case ACTIVITY_SELECT_PICTURE_2:
                 if (resultCode == Activity.RESULT_OK) {
                     selectedUriTwo = data.getData();

@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
         theDividingLine = 0.5;
 
+        // Launch the enter name and image interface
+
         Intent promptNamePhoto;
 
         promptNamePhoto = new Intent();
@@ -75,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
 
         return true;
     }
+
+    // Menu items
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
@@ -107,9 +111,12 @@ public class MainActivity extends AppCompatActivity {
 
         switch(view.getId()){
             case R.id.btn_start:
+                // Starting the main game - TicTacToc
                 nextActivity = new Intent();
                 nextActivity.setClassName("edu.miami.cs.jadedo.tictactocgame",
                         "edu.miami.cs.jadedo.tictactocgame.GameOn");
+
+                // Passing in information
                 nextActivity.putExtra("edu.miami.cs.jadedo.tictactocgame.my_bar_gap_time", myBarGapTime);
                 nextActivity.putExtra("edu.miami.cs.jadedo.tictactocgame.dividing_line", theDividingLine);
                 nextActivity.putExtra("edu.miami.cs.jadedo.tictactocgame.name_one", nameOneHere);
@@ -135,8 +142,10 @@ public class MainActivity extends AppCompatActivity {
         View startBtn;
 
         switch (requestCode){
-            case ACTIVITY_GAME_ON:
 
+            // Result of winner from TicTacToc Game
+            case ACTIVITY_GAME_ON:
+                // Setting the rating bar
                 if (resultCode == Activity.RESULT_OK){
                     whoWon = data.getIntExtra("edu.miami.cs.jadedo.tictactocgame.who_won", BLANK);
                     String winner = String.valueOf(whoWon);
@@ -154,6 +163,8 @@ public class MainActivity extends AppCompatActivity {
                             startBtn.setVisibility(View.GONE);
                         }
                     }
+
+                    // Setting the dividing line
                     theDividingLine = data.getDoubleExtra("edu.miami.cs.jadedo.tictactocgame.dividing_line", 0.5);
 
                 } else {
@@ -161,12 +172,16 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
 
+                // Return the entered players' name and photo
+
             case ACTIVITY_PROMPT:
 
                 TextView textViewOne;
                 TextView textViewTwo;
 
                     if (resultCode == Activity.RESULT_OK){
+
+                        // Getting the photo information
                             uriOneStringHere = data.getStringExtra("edu.miami.cs.jadedo.tictactocgame.uri_one_string");
                             uriTwoStringHere = data.getStringExtra("edu.miami.cs.jadedo.tictactocgame.uri_two_string");
 
@@ -191,6 +206,8 @@ public class MainActivity extends AppCompatActivity {
                                     Log.i("ERROR", "Could not get picture from " + uriTwoStringHere + " " + e.getMessage());
                                 }
                         }
+
+                        // Getting the player name information
 
                         nameOneHere = data.getStringExtra("edu.miami.cs.jadedo.tictactocgame.name_one");
                         nameTwoHere = data.getStringExtra("edu.miami.cs.jadedo.tictactocgame.name_two");
