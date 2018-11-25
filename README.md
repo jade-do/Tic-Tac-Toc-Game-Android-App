@@ -1,6 +1,6 @@
 # Tic-Tac-Toc-Game-Android-App
 
-TicTacToc
+# TicTacToc
 TicTacToc is an enhanced version of the well known Tic-Tac-Toe game that is often played on paper. TicTacToc is an Android app that allows two people to play the game on a phone, with the additional feature that each play has to be done within a limited amout of time ... if a player does not play within the time limit they lose their turn. The app keeps track of the players' scores - the first player to win 5 games is the winner of the tournament. The following details are easy to understand if you download, install, and run the TicTacTocLite app. (You'll see why it's called the "Lite" version in the "Extra Credit" section of this page.)
 
 The app starts on the scoring screen, which identifies the players by red and green buttons, and their scores as RatingBars. The "Start" button starts the play activity. The choice of which player goes first is random, but biased so that it is unlikely for one player to go first too many times in a row (more details below). The play interface indicates which player has to play, by displaying either a red button on the top left or a green button on top right of the screen. Below that is a ProgressBar that shows the time left for the current player. Finally the 3x3 board is below that, as a grid of buttons.
@@ -11,9 +11,9 @@ Here's the trick for biasing the randomizing which player starts each game. At t
 
 Use best coding practices for all aspects of the code, including separated styles and dimens, and a nice icon!
 
-Extra Credit
+# Extra Credit
 An extra 4% is available by adding further features to the app. The following details are easy to understand if you download, install, and run the TicTacToc app.
 The app starts with a player details screen, that allows the players to enter their names, and select a photo to use. When the names and photos have been specified, the app goes to the scoring screen activity, which uses the players' names and photos in place of the generic "Player 1/2" names and red/green buttons. Similarly, in the play interface the players' names are used in the field that says "Player", and photos are used for the indicator and grid buttons.
 
-Submission and Grading
+# Submission and Grading
 The app is due at the start of class on 4th October. You must submit a .zip or .tar.gz or any other compressed archive containing your entire project directory for TicTacToc, plus a .apk, via Blackboard. You can submit the project as many times as you want on Blackboard until the due time. I will be grading the very last submission you make to the assignment. I will sit with each of you and run the app to grade it's execution, and will grade the source code according to usual standards for Java coding, acording to this marking scheme. Your project is worth 20% of the course grade. Please review the policies on assessment in the administration document.
